@@ -12,10 +12,9 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptAbs = createDescriptorForAbs();
-  /*package*/ final ConceptDescriptor myConceptExpression = createDescriptorForExpression();
-  /*package*/ final ConceptDescriptor myConceptPlus = createDescriptorForPlus();
-  /*package*/ final ConceptDescriptor myConceptStandardProcedure = createDescriptorForStandardProcedure();
+  /*package*/ final ConceptDescriptor myConceptApplication = createDescriptorForApplication();
+  /*package*/ final ConceptDescriptor myConceptLambdaExpression = createDescriptorForLambdaExpression();
+  /*package*/ final ConceptDescriptor myConceptProgram = createDescriptorForProgram();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -30,21 +29,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAbs, myConceptExpression, myConceptPlus, myConceptStandardProcedure);
+    return Arrays.asList(myConceptApplication, myConceptLambdaExpression, myConceptProgram);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
-      case LanguageConceptSwitch.Abs:
-        return myConceptAbs;
-      case LanguageConceptSwitch.Expression:
-        return myConceptExpression;
-      case LanguageConceptSwitch.Plus:
-        return myConceptPlus;
-      case LanguageConceptSwitch.StandardProcedure:
-        return myConceptStandardProcedure;
+      case LanguageConceptSwitch.Application:
+        return myConceptApplication;
+      case LanguageConceptSwitch.LambdaExpression:
+        return myConceptLambdaExpression;
+      case LanguageConceptSwitch.Program:
+        return myConceptProgram;
       default:
         return null;
     }
@@ -55,41 +52,30 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myIndexSwitch.index(c);
   }
 
-  private static ConceptDescriptor createDescriptorForAbs() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "Abs", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde897864e3L);
+  private static ConceptDescriptor createDescriptorForApplication() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "Application", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde897ae2dcL);
     b.class_(false, false, false);
-    b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786161L);
-    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906192611");
+    b.super_("Scheme.structure.LambdaExpression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL);
+    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906355932");
     b.version(2);
-    b.alias("abs");
+    b.aggregate("function", 0x3e385cde897ae2ddL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("4483435539906355933").done();
+    b.aggregate("arguments", 0x3e385cde897ae2dfL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(true).ordered(true).multiple(true).origin("4483435539906355935").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForExpression() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "Expression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde8977a991L);
+  private static ConceptDescriptor createDescriptorForLambdaExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "LambdaExpression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL);
+    b.class_(false, true, false);
+    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906195342");
+    b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForProgram() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "Program", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde8977a991L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906144657");
     b.version(2);
-    b.aggregate("function", 0x3e385cde89786156L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde8977a991L).optional(false).ordered(true).multiple(false).origin("4483435539906191702").done();
-    b.aggregate("arguments", 0x3e385cde89786154L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde8977a991L).optional(true).ordered(true).multiple(true).origin("4483435539906191700").done();
-    b.alias("expression");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForPlus() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "Plus", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde897864e4L);
-    b.class_(false, false, false);
-    b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786161L);
-    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906192612");
-    b.version(2);
-    b.alias("+");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForStandardProcedure() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786161L);
-    b.class_(false, true, false);
-    b.super_("Scheme.structure.Expression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde8977a991L);
-    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906191713");
-    b.version(2);
+    b.aggregate("lambdaExpression", 0x3e385cde897ae2b9L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("4483435539906355897").done();
     return b.create();
   }
 }
