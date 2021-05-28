@@ -10,8 +10,10 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Application;
+  private ConceptPresentation props_IfStmt;
   private ConceptPresentation props_LambdaExpression;
   private ConceptPresentation props_Program;
+  private ConceptPresentation props_SpecialForm;
 
   @Override
   @Nullable
@@ -21,10 +23,17 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Application:
         if (props_Application == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Application");
+          cpb.rawPresentation("( ");
           props_Application = cpb.create();
         }
         return props_Application;
+      case LanguageConceptSwitch.IfStmt:
+        if (props_IfStmt == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("(if");
+          props_IfStmt = cpb.create();
+        }
+        return props_IfStmt;
       case LanguageConceptSwitch.LambdaExpression:
         if (props_LambdaExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -38,6 +47,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Program = cpb.create();
         }
         return props_Program;
+      case LanguageConceptSwitch.SpecialForm:
+        if (props_SpecialForm == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_SpecialForm = cpb.create();
+        }
+        return props_SpecialForm;
     }
     return null;
   }

@@ -13,6 +13,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -62,6 +63,7 @@
   <node concept="1TIwiD" id="3SSndU9uIbs">
     <property role="EcuMT" value="4483435539906355932" />
     <property role="TrG5h" value="Application" />
+    <property role="34LRSv" value="( " />
     <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
     <node concept="1TJgyj" id="3SSndU9uIbt" role="1TKVEi">
       <property role="IQ2ns" value="4483435539906355933" />
@@ -75,6 +77,39 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="arguments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="11rakpXzWPC">
+    <property role="EcuMT" value="1178581110218542440" />
+    <property role="TrG5h" value="SpecialForm" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+  </node>
+  <node concept="1TIwiD" id="11rakpXzWPF">
+    <property role="EcuMT" value="1178581110218542443" />
+    <property role="TrG5h" value="IfStmt" />
+    <property role="34LRSv" value="(if" />
+    <ref role="1TJDcQ" node="11rakpXzWPC" resolve="SpecialForm" />
+    <node concept="1TJgyj" id="11rakpXzWPG" role="1TKVEi">
+      <property role="IQ2ns" value="1178581110218542444" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="predicate" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+    </node>
+    <node concept="1TJgyj" id="11rakpXzWPI" role="1TKVEi">
+      <property role="IQ2ns" value="1178581110218542446" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="consequent" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+    </node>
+    <node concept="1TJgyj" id="11rakpXzWPL" role="1TKVEi">
+      <property role="IQ2ns" value="1178581110218542449" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="alternate" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3SSndU9u6Ye" resolve="LambdaExpression" />
     </node>
   </node>

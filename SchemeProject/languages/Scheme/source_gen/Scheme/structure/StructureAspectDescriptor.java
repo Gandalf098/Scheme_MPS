@@ -13,8 +13,10 @@ import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptApplication = createDescriptorForApplication();
+  /*package*/ final ConceptDescriptor myConceptIfStmt = createDescriptorForIfStmt();
   /*package*/ final ConceptDescriptor myConceptLambdaExpression = createDescriptorForLambdaExpression();
   /*package*/ final ConceptDescriptor myConceptProgram = createDescriptorForProgram();
+  /*package*/ final ConceptDescriptor myConceptSpecialForm = createDescriptorForSpecialForm();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -29,7 +31,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptApplication, myConceptLambdaExpression, myConceptProgram);
+    return Arrays.asList(myConceptApplication, myConceptIfStmt, myConceptLambdaExpression, myConceptProgram, myConceptSpecialForm);
   }
 
   @Override
@@ -38,10 +40,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.Application:
         return myConceptApplication;
+      case LanguageConceptSwitch.IfStmt:
+        return myConceptIfStmt;
       case LanguageConceptSwitch.LambdaExpression:
         return myConceptLambdaExpression;
       case LanguageConceptSwitch.Program:
         return myConceptProgram;
+      case LanguageConceptSwitch.SpecialForm:
+        return myConceptSpecialForm;
       default:
         return null;
     }
@@ -60,6 +66,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("function", 0x3e385cde897ae2ddL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("4483435539906355933").done();
     b.aggregate("arguments", 0x3e385cde897ae2dfL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(true).ordered(true).multiple(true).origin("4483435539906355935").done();
+    b.alias("( ");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIfStmt() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "IfStmt", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x105b29467d8fcd6bL);
+    b.class_(false, false, false);
+    b.super_("Scheme.structure.SpecialForm", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x105b29467d8fcd68L);
+    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/1178581110218542443");
+    b.version(2);
+    b.aggregate("predicate", 0x105b29467d8fcd6cL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542444").done();
+    b.aggregate("consequent", 0x105b29467d8fcd6eL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542446").done();
+    b.aggregate("alternate", 0x105b29467d8fcd71L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542449").done();
+    b.alias("(if");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLambdaExpression() {
@@ -76,6 +95,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/4483435539906144657");
     b.version(2);
     b.aggregate("lambdaExpression", 0x3e385cde897ae2b9L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("4483435539906355897").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForSpecialForm() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Scheme", "SpecialForm", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x105b29467d8fcd68L);
+    b.class_(false, true, false);
+    b.super_("Scheme.structure.LambdaExpression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL);
+    b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/1178581110218542440");
+    b.version(2);
     return b.create();
   }
 }
