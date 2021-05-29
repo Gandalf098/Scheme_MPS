@@ -129,7 +129,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Scheme.structure.LambdaExpression", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/5253886477027946277");
     b.version(2);
-    b.alias(" ");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIfStmt() {

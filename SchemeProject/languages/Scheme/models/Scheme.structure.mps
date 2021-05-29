@@ -248,7 +248,6 @@
   <node concept="1TIwiD" id="4zDzuCxuEW_">
     <property role="EcuMT" value="5253886477027946277" />
     <property role="TrG5h" value="Empty" />
-    <property role="34LRSv" value=" " />
     <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
   </node>
 </model>

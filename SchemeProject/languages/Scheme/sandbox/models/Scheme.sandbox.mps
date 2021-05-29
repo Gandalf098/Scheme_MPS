@@ -127,10 +127,6 @@
         </node>
       </node>
     </node>
-    <node concept="1DBLCW" id="4zDzuCxv3Yt" role="2RgFTB">
-      <node concept="1DBLCp" id="4zDzuCxv3Yv" role="1DBLCm" />
-      <node concept="2Rg3dg" id="4zDzuCxv3Yx" role="1DBLCk" />
-    </node>
   </node>
 </model>
 

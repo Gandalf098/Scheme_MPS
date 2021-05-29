@@ -56,7 +56,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Empty:
         if (props_Empty == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation(" ");
+          cpb.rawPresentation("Empty");
           props_Empty = cpb.create();
         }
         return props_Empty;
