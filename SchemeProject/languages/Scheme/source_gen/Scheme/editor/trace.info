@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="16,0,60,0" name="Scheme.editor.EditorAspectDescriptorImpl" />
+      <unit at="16,0,62,0" name="Scheme.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="LambdaAbsVarRef_SubstituteMenu.java">
       <unit at="90,0,93,0" name="Scheme.editor.LambdaAbsVarRef_SubstituteMenu$CONCEPTS" />
@@ -985,7 +985,7 @@
       <node id="5253886477027749584" at="101,118,102,137" concept="1" />
       <node id="5253886477027749584" at="104,42,105,49" concept="1" />
       <node id="5253886477027749584" at="106,7,107,36" concept="5" />
-      <node id="5253886477027863792" at="107,36,108,60" concept="1" />
+      <node id="5253886477027990159" at="107,36,108,60" concept="1" />
       <node id="5253886477027749584" at="108,60,109,42" concept="1" />
       <node id="5253886477027749584" at="112,44,113,41" concept="1" />
       <node id="5253886477027749584" at="113,41,114,108" concept="1" />
@@ -1597,6 +1597,49 @@
       <unit id="5253886477027885896" at="70,42,89,5" name="Scheme.editor.VariableRef_EditorBuilder_a$1" />
       <unit id="5253886477027885903" at="111,0,161,0" name="Scheme.editor.VariableRef_EditorBuilder_a$Inline_Builder0" />
       <unit id="5253886477027885896" at="41,0,175,0" name="Scheme.editor.VariableRef_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:edd58ee8-2b33-4bc0-b57a-67f14cedcab8(Scheme.editor)/5253886477027946285">
+    <file name="Empty_Editor.java">
+      <node id="5253886477027946285" at="11,79,12,71" concept="6" />
+      <node id="5253886477027946285" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="5253886477027946285" at="11,79,12,71" />
+      <scope id="5253886477027946285" at="11,0,14,0">
+        <var name="editorContext" id="5253886477027946285" />
+        <var name="node" id="5253886477027946285" />
+      </scope>
+      <unit id="5253886477027946285" at="10,0,15,0" name="Scheme.editor.Empty_Editor" />
+    </file>
+    <file name="Empty_EditorBuilder_a.java">
+      <node id="5253886477027946285" at="16,85,17,19" concept="9" />
+      <node id="5253886477027946285" at="17,19,18,18" concept="1" />
+      <node id="5253886477027946285" at="23,26,24,18" concept="6" />
+      <node id="5253886477027946285" at="27,39,28,30" concept="6" />
+      <node id="5253886477027946287" at="31,41,32,93" concept="5" />
+      <node id="5253886477027946287" at="32,93,33,46" concept="1" />
+      <node id="5253886477027946287" at="33,46,34,28" concept="1" />
+      <node id="5253886477027946287" at="34,28,35,31" concept="1" />
+      <node id="5253886477027946287" at="35,31,36,34" concept="1" />
+      <node id="5253886477027946287" at="36,34,37,22" concept="6" />
+      <node id="5253886477027946285" at="13,0,15,0" concept="2" trace="myNode" />
+      <node id="5253886477027946285" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5253886477027946285" at="16,0,20,0" concept="0" trace="Empty_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5253886477027946285" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5253886477027946287" at="31,0,39,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="5253886477027946285" at="23,26,24,18" />
+      <scope id="5253886477027946285" at="27,39,28,30" />
+      <scope id="5253886477027946285" at="16,85,18,18" />
+      <scope id="5253886477027946285" at="27,0,30,0" />
+      <scope id="5253886477027946285" at="16,0,20,0">
+        <var name="context" id="5253886477027946285" />
+        <var name="node" id="5253886477027946285" />
+      </scope>
+      <scope id="5253886477027946285" at="21,0,26,0" />
+      <scope id="5253886477027946287" at="31,41,37,22">
+        <var name="editorCell" id="5253886477027946287" />
+      </scope>
+      <scope id="5253886477027946287" at="31,0,39,0" />
+      <unit id="5253886477027946285" at="12,0,40,0" name="Scheme.editor.Empty_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

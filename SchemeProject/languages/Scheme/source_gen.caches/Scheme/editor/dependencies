@@ -30,6 +30,7 @@
   </dependency>
   <dependency className="Scheme.editor.EditorAspectDescriptorImpl">
     <classNode dependClassName="Scheme.editor.Definition_Editor" />
+    <classNode dependClassName="Scheme.editor.Empty_Editor" />
     <classNode dependClassName="Scheme.editor.IfStmt_Editor" />
     <classNode dependClassName="Scheme.editor.LambdaAbsVarRef_SubstituteMenu" />
     <classNode dependClassName="Scheme.editor.LambdaAbstraction_Editor" />
@@ -50,6 +51,22 @@
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.EditorAspectDescriptorBase" />
+  </dependency>
+  <dependency className="Scheme.editor.Empty_Editor">
+    <classNode dependClassName="Scheme.editor.Empty_EditorBuilder_a" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+  </dependency>
+  <dependency className="Scheme.editor.Empty_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.editor.runtime.descriptor.AbstractEditorBuilder" />
   </dependency>
   <dependency className="Scheme.editor.IfStmt_Editor">
     <classNode dependClassName="Scheme.editor.IfStmt_EditorBuilder_a" />

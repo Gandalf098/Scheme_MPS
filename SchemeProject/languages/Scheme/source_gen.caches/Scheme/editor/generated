@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-evqge9gixr2yuvzec6hroxzpihxsff9">
-  <files names="Definition_Editor.java:Definition_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:IfStmt_Editor.java:IfStmt_EditorBuilder_a.java:LambdaAbsVarRef_SubstituteMenu.java:LambdaAbstraction_Editor.java:LambdaAbstraction_EditorBuilder_a.java:LambdaApplication_Editor.java:LambdaApplication_EditorBuilder_a.java:Program_Editor.java:Program_EditorBuilder_a.java:StandardProcedure_Editor.java:StandardProcedure_EditorBuilder_a.java:VariableRef_Editor.java:VariableRef_EditorBuilder_a.java:VariableRef_SubstituteMenu.java:Variable_Editor.java:Variable_EditorBuilder_a.java" />
+<product version="3" modelHash="1m9bbnu0qma9z9izq6a2o7kmq7cln1t">
+  <files names="Definition_Editor.java:Definition_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Empty_Editor.java:Empty_EditorBuilder_a.java:IfStmt_Editor.java:IfStmt_EditorBuilder_a.java:LambdaAbsVarRef_SubstituteMenu.java:LambdaAbstraction_Editor.java:LambdaAbstraction_EditorBuilder_a.java:LambdaApplication_Editor.java:LambdaApplication_EditorBuilder_a.java:Program_Editor.java:Program_EditorBuilder_a.java:StandardProcedure_Editor.java:StandardProcedure_EditorBuilder_a.java:VariableRef_Editor.java:VariableRef_EditorBuilder_a.java:VariableRef_SubstituteMenu.java:Variable_Editor.java:Variable_EditorBuilder_a.java" />
 </product>
 

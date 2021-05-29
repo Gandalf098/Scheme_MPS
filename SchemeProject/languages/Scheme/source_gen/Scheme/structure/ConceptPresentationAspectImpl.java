@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Addition;
   private ConceptPresentation props_Definition;
   private ConceptPresentation props_Division;
+  private ConceptPresentation props_Empty;
   private ConceptPresentation props_IfStmt;
   private ConceptPresentation props_LambdaAbsVar;
   private ConceptPresentation props_LambdaAbsVarRef;
@@ -34,28 +35,35 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Addition:
         if (props_Addition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(+");
+          cpb.rawPresentation("( +");
           props_Addition = cpb.create();
         }
         return props_Addition;
       case LanguageConceptSwitch.Definition:
         if (props_Definition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(define");
+          cpb.rawPresentation("( define");
           props_Definition = cpb.create();
         }
         return props_Definition;
       case LanguageConceptSwitch.Division:
         if (props_Division == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(/");
+          cpb.rawPresentation("( /");
           props_Division = cpb.create();
         }
         return props_Division;
+      case LanguageConceptSwitch.Empty:
+        if (props_Empty == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation(" ");
+          props_Empty = cpb.create();
+        }
+        return props_Empty;
       case LanguageConceptSwitch.IfStmt:
         if (props_IfStmt == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(if");
+          cpb.rawPresentation("( if");
           props_IfStmt = cpb.create();
         }
         return props_IfStmt;
@@ -76,7 +84,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.LambdaAbstraction:
         if (props_LambdaAbstraction == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(lambda");
+          cpb.rawPresentation("( lambda");
           props_LambdaAbstraction = cpb.create();
         }
         return props_LambdaAbstraction;
@@ -96,7 +104,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Multiplication:
         if (props_Multiplication == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(*");
+          cpb.rawPresentation("( *");
           props_Multiplication = cpb.create();
         }
         return props_Multiplication;
@@ -122,7 +130,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Subtraction:
         if (props_Subtraction == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(-");
+          cpb.rawPresentation("( -");
           props_Subtraction = cpb.create();
         }
         return props_Subtraction;
