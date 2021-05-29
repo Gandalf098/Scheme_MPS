@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-81x8fthqlq0lspjluwx6ldo6spgvoi9">
-  <files names="Definition_Editor.java:Definition_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Empty_Editor.java:Empty_EditorBuilder_a.java:IfStmt_Editor.java:IfStmt_EditorBuilder_a.java:LambdaAbsVarRef_SubstituteMenu.java:LambdaAbstraction_Editor.java:LambdaAbstraction_EditorBuilder_a.java:LambdaApplication_Editor.java:LambdaApplication_EditorBuilder_a.java:Program_Editor.java:Program_EditorBuilder_a.java:StandardProcedure_Editor.java:StandardProcedure_EditorBuilder_a.java:VariableRef_Editor.java:VariableRef_EditorBuilder_a.java:VariableRef_SubstituteMenu.java:Variable_Editor.java:Variable_EditorBuilder_a.java" />
-</product>
-
