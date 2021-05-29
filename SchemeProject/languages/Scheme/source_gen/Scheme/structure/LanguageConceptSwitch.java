@@ -9,19 +9,41 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Application = 0;
-  public static final int IfStmt = 1;
-  public static final int LambdaExpression = 2;
-  public static final int Program = 3;
-  public static final int SpecialForm = 4;
+  public static final int Addition = 0;
+  public static final int Definition = 1;
+  public static final int Division = 2;
+  public static final int IfStmt = 3;
+  public static final int LambdaAbsVar = 4;
+  public static final int LambdaAbsVarRef = 5;
+  public static final int LambdaAbstraction = 6;
+  public static final int LambdaApplication = 7;
+  public static final int LambdaExpression = 8;
+  public static final int Multiplication = 9;
+  public static final int Program = 10;
+  public static final int SpecialForm = 11;
+  public static final int StandardProcedure = 12;
+  public static final int Subtraction = 13;
+  public static final int Variable = 14;
+  public static final int VariableRef = 15;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x153bdb2d58544e08L, 0x8d663c076d5936d6L);
-    builder.put(0x3e385cde897ae2dcL, Application);
+    builder.put(0x48e98dea2174a1c9L, Addition);
+    builder.put(0x48e98dea2174a1cdL, Definition);
+    builder.put(0x48e98dea2174a1ccL, Division);
     builder.put(0x105b29467d8fcd6bL, IfStmt);
+    builder.put(0x48e98dea217697f3L, LambdaAbsVar);
+    builder.put(0x48e98dea217697d7L, LambdaAbsVarRef);
+    builder.put(0x48e98dea217697d6L, LambdaAbstraction);
+    builder.put(0x3e385cde897ae2dcL, LambdaApplication);
     builder.put(0x3e385cde89786f8eL, LambdaExpression);
+    builder.put(0x48e98dea2174a1cbL, Multiplication);
     builder.put(0x3e385cde8977a991L, Program);
     builder.put(0x105b29467d8fcd68L, SpecialForm);
+    builder.put(0x48e98dea2174708eL, StandardProcedure);
+    builder.put(0x48e98dea2174a1caL, Subtraction);
+    builder.put(0x48e98dea217697ceL, Variable);
+    builder.put(0x48e98dea217697d1L, VariableRef);
     myIndex = builder.seal();
   }
 
