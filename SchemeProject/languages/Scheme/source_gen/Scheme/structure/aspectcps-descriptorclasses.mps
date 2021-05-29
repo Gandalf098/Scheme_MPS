@@ -428,7 +428,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027549641" />
                         <node concept="Xl_RD" id="1J" role="37wK5m">
-                          <property role="Xl_RC" value="( +" />
+                          <property role="Xl_RC" value="(+" />
                           <uo k="s:originTrace" v="n:5253886477027549641" />
                         </node>
                       </node>
@@ -494,7 +494,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027549645" />
                         <node concept="Xl_RD" id="28" role="37wK5m">
-                          <property role="Xl_RC" value="( define" />
+                          <property role="Xl_RC" value="(define" />
                           <uo k="s:originTrace" v="n:5253886477027549645" />
                         </node>
                       </node>
@@ -560,7 +560,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027549644" />
                         <node concept="Xl_RD" id="2x" role="37wK5m">
-                          <property role="Xl_RC" value="( /" />
+                          <property role="Xl_RC" value="(/" />
                           <uo k="s:originTrace" v="n:5253886477027549644" />
                         </node>
                       </node>
@@ -692,7 +692,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:1178581110218542443" />
                         <node concept="Xl_RD" id="3j" role="37wK5m">
-                          <property role="Xl_RC" value="( if" />
+                          <property role="Xl_RC" value="(if" />
                           <uo k="s:originTrace" v="n:1178581110218542443" />
                         </node>
                       </node>
@@ -910,7 +910,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027678166" />
                         <node concept="Xl_RD" id="4z" role="37wK5m">
-                          <property role="Xl_RC" value="( lambda" />
+                          <property role="Xl_RC" value="(lambda" />
                           <uo k="s:originTrace" v="n:5253886477027678166" />
                         </node>
                       </node>
@@ -1093,7 +1093,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027549643" />
                         <node concept="Xl_RD" id="5D" role="37wK5m">
-                          <property role="Xl_RC" value="( *" />
+                          <property role="Xl_RC" value="(*" />
                           <uo k="s:originTrace" v="n:5253886477027549643" />
                         </node>
                       </node>
@@ -1323,7 +1323,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <uo k="s:originTrace" v="n:5253886477027549642" />
                         <node concept="Xl_RD" id="72" role="37wK5m">
-                          <property role="Xl_RC" value="( -" />
+                          <property role="Xl_RC" value="(-" />
                           <uo k="s:originTrace" v="n:5253886477027549642" />
                         </node>
                       </node>
@@ -2863,7 +2863,7 @@
             <node concept="liA8E" id="fX" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="fY" role="37wK5m">
-                <property role="Xl_RC" value="( +" />
+                <property role="Xl_RC" value="(+" />
               </node>
             </node>
           </node>
@@ -3113,7 +3113,7 @@
             <node concept="liA8E" id="hu" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="hv" role="37wK5m">
-                <property role="Xl_RC" value="( define" />
+                <property role="Xl_RC" value="(define" />
               </node>
             </node>
           </node>
@@ -3237,7 +3237,7 @@
             <node concept="liA8E" id="id" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="ie" role="37wK5m">
-                <property role="Xl_RC" value="( /" />
+                <property role="Xl_RC" value="(/" />
               </node>
             </node>
           </node>
@@ -3674,7 +3674,7 @@
             <node concept="liA8E" id="kQ" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="kR" role="37wK5m">
-                <property role="Xl_RC" value="( if" />
+                <property role="Xl_RC" value="(if" />
               </node>
             </node>
           </node>
@@ -4148,7 +4148,7 @@
             <node concept="liA8E" id="nF" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="nG" role="37wK5m">
-                <property role="Xl_RC" value="( lambda" />
+                <property role="Xl_RC" value="(lambda" />
               </node>
             </node>
           </node>
@@ -4617,7 +4617,7 @@
             <node concept="liA8E" id="qt" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="qu" role="37wK5m">
-                <property role="Xl_RC" value="( *" />
+                <property role="Xl_RC" value="(*" />
               </node>
             </node>
           </node>
@@ -5209,7 +5209,7 @@
             <node concept="liA8E" id="tV" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="tW" role="37wK5m">
-                <property role="Xl_RC" value="( -" />
+                <property role="Xl_RC" value="(-" />
               </node>
             </node>
           </node>

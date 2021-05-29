@@ -96,7 +96,7 @@
   <node concept="1TIwiD" id="11rakpXzWPF">
     <property role="EcuMT" value="1178581110218542443" />
     <property role="TrG5h" value="IfStmt" />
-    <property role="34LRSv" value="( if" />
+    <property role="34LRSv" value="(if" />
     <property role="3GE5qa" value="Expressions.SpecialForms" />
     <ref role="1TJDcQ" node="11rakpXzWPC" resolve="SpecialForm" />
     <node concept="1TJgyj" id="11rakpXzWPG" role="1TKVEi">
@@ -138,7 +138,7 @@
   <node concept="1TIwiD" id="4zDzuCxta79">
     <property role="EcuMT" value="5253886477027549641" />
     <property role="TrG5h" value="Addition" />
-    <property role="34LRSv" value="( +" />
+    <property role="34LRSv" value="(+" />
     <property role="3GE5qa" value="Expressions.StandardProcedures.Numeric" />
     <ref role="1TJDcQ" node="4zDzuCxt72e" resolve="StandardProcedure" />
   </node>
@@ -146,28 +146,28 @@
     <property role="EcuMT" value="5253886477027549642" />
     <property role="3GE5qa" value="Expressions.StandardProcedures.Numeric" />
     <property role="TrG5h" value="Subtraction" />
-    <property role="34LRSv" value="( -" />
+    <property role="34LRSv" value="(-" />
     <ref role="1TJDcQ" node="4zDzuCxt72e" resolve="StandardProcedure" />
   </node>
   <node concept="1TIwiD" id="4zDzuCxta7b">
     <property role="EcuMT" value="5253886477027549643" />
     <property role="3GE5qa" value="Expressions.StandardProcedures.Numeric" />
     <property role="TrG5h" value="Multiplication" />
-    <property role="34LRSv" value="( *" />
+    <property role="34LRSv" value="(*" />
     <ref role="1TJDcQ" node="4zDzuCxt72e" resolve="StandardProcedure" />
   </node>
   <node concept="1TIwiD" id="4zDzuCxta7c">
     <property role="EcuMT" value="5253886477027549644" />
     <property role="3GE5qa" value="Expressions.StandardProcedures.Numeric" />
     <property role="TrG5h" value="Division" />
-    <property role="34LRSv" value="( /" />
+    <property role="34LRSv" value="(/" />
     <ref role="1TJDcQ" node="4zDzuCxt72e" resolve="StandardProcedure" />
   </node>
   <node concept="1TIwiD" id="4zDzuCxta7d">
     <property role="EcuMT" value="5253886477027549645" />
     <property role="3GE5qa" value="Expressions.SpecialForms" />
     <property role="TrG5h" value="Definition" />
-    <property role="34LRSv" value="( define" />
+    <property role="34LRSv" value="(define" />
     <ref role="1TJDcQ" node="11rakpXzWPC" resolve="SpecialForm" />
     <node concept="1TJgyj" id="4zDzuCxtDuB" role="1TKVEi">
       <property role="IQ2ns" value="5253886477027678119" />
@@ -209,7 +209,7 @@
     <property role="EcuMT" value="5253886477027678166" />
     <property role="3GE5qa" value="Expressions.LambdaAbstraction" />
     <property role="TrG5h" value="LambdaAbstraction" />
-    <property role="34LRSv" value="( lambda" />
+    <property role="34LRSv" value="(lambda" />
     <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
     <node concept="1TJgyj" id="4zDzuCxtDvW" role="1TKVEi">
       <property role="IQ2ns" value="5253886477027678204" />

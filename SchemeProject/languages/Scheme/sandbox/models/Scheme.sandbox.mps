@@ -32,6 +32,7 @@
         <child id="5253886477027678206" name="body" index="1DBLCk" />
         <child id="5253886477027678204" name="variables" index="1DBLCm" />
       </concept>
+      <concept id="5253886477027678167" name="Scheme.structure.LambdaAbsVarRef" flags="ng" index="1DBLCX" />
       <concept id="1178581110218542443" name="Scheme.structure.IfStmt" flags="ng" index="1HPegH">
         <child id="1178581110218542446" name="consequent" index="1HPegC" />
         <child id="1178581110218542444" name="predicate" index="1HPegE" />
@@ -112,6 +113,23 @@
           <ref role="1DBLCS" node="4zDzuCxupq6" resolve="c" />
         </node>
       </node>
+    </node>
+    <node concept="2RgFS2" id="4zDzuCxv0pD" role="2RgFTB">
+      <node concept="1DBLCW" id="4zDzuCxv0qj" role="2RgFS3">
+        <node concept="1DBLCp" id="4zDzuCxv0ql" role="1DBLCm">
+          <property role="TrG5h" value="x" />
+        </node>
+        <node concept="1DBiKz" id="4zDzuCxv0qw" role="1DBLCk">
+          <node concept="1DBLCX" id="4zDzuCxv0qB" role="1DBiKH">
+            <ref role="1DBLCS" node="4zDzuCxv0ql" resolve="x" />
+          </node>
+          <node concept="2Rg3dg" id="4zDzuCxv0qD" role="1DBiKH" />
+        </node>
+      </node>
+    </node>
+    <node concept="1DBLCW" id="4zDzuCxv3Yt" role="2RgFTB">
+      <node concept="1DBLCp" id="4zDzuCxv3Yv" role="1DBLCm" />
+      <node concept="2Rg3dg" id="4zDzuCxv3Yx" role="1DBLCk" />
     </node>
   </node>
 </model>

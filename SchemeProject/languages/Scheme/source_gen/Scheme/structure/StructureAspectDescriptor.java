@@ -100,7 +100,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea2174708eL);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/5253886477027549641");
     b.version(2);
-    b.alias("( +");
+    b.alias("(+");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDefinition() {
@@ -111,7 +111,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("variable", 0x48e98dea217697a7L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea217697ceL).optional(false).ordered(true).multiple(false).origin("5253886477027678119").done();
     b.aggregate("expression", 0x48e98dea217697b0L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("5253886477027678128").done();
-    b.alias("( define");
+    b.alias("(define");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDivision() {
@@ -120,7 +120,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea2174708eL);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/5253886477027549644");
     b.version(2);
-    b.alias("( /");
+    b.alias("(/");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForEmpty() {
@@ -141,7 +141,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("predicate", 0x105b29467d8fcd6cL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542444").done();
     b.aggregate("consequent", 0x105b29467d8fcd6eL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542446").done();
     b.aggregate("alternate", 0x105b29467d8fcd71L).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("1178581110218542449").done();
-    b.alias("( if");
+    b.alias("(if");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLambdaAbsVar() {
@@ -168,7 +168,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("variables", 0x48e98dea217697fcL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea217697f3L).optional(false).ordered(true).multiple(true).origin("5253886477027678204").done();
     b.aggregate("body", 0x48e98dea217697feL).target(0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x3e385cde89786f8eL).optional(false).ordered(true).multiple(false).origin("5253886477027678206").done();
-    b.alias("( lambda");
+    b.alias("(lambda");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLambdaApplication() {
@@ -195,7 +195,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea2174708eL);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/5253886477027549643");
     b.version(2);
-    b.alias("( *");
+    b.alias("(*");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForProgram() {
@@ -230,7 +230,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Scheme.structure.StandardProcedure", 0x153bdb2d58544e08L, 0x8d663c076d5936d6L, 0x48e98dea2174708eL);
     b.origin("r:7cd98cca-3e1a-4130-8b93-c7cf97a5b220(Scheme.structure)/5253886477027549642");
     b.version(2);
-    b.alias("( -");
+    b.alias("(-");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForVariable() {

@@ -55,8 +55,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="1178581110218542443" at="16,0,17,0" concept="1" trace="props_IfStmt" />
       <node id="1178581110218542443" at="64,35,65,76" concept="3" />
-      <node id="1178581110218542443" at="65,76,66,38" concept="0" />
-      <node id="1178581110218542443" at="66,38,67,38" concept="0" />
+      <node id="1178581110218542443" at="65,76,66,37" concept="0" />
+      <node id="1178581110218542443" at="66,37,67,38" concept="0" />
       <node id="1178581110218542443" at="68,9,69,28" concept="4" />
       <node id="1178581110218542443" at="63,40,68,9" concept="2" />
       <scope id="1178581110218542443" at="64,35,67,38">
@@ -79,8 +79,8 @@
       <node id="1178581110218542444" at="140,17,141,203" concept="0" />
       <node id="1178581110218542446" at="141,203,142,204" concept="0" />
       <node id="1178581110218542449" at="142,204,143,203" concept="0" />
-      <node id="1178581110218542443" at="143,203,144,20" concept="0" />
-      <node id="1178581110218542443" at="144,20,145,22" concept="4" />
+      <node id="1178581110218542443" at="143,203,144,19" concept="0" />
+      <node id="1178581110218542443" at="144,19,145,22" concept="4" />
       <node id="1178581110218542443" at="135,0,147,0" concept="6" trace="createDescriptorForIfStmt#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="1178581110218542443" at="61,40,62,31" />
       <scope id="1178581110218542443" at="135,64,145,22">
@@ -231,8 +231,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027549641" at="12,0,13,0" concept="1" trace="props_Addition" />
       <node id="5253886477027549641" at="36,37,37,76" concept="3" />
-      <node id="5253886477027549641" at="37,76,38,37" concept="0" />
-      <node id="5253886477027549641" at="38,37,39,40" concept="0" />
+      <node id="5253886477027549641" at="37,76,38,36" concept="0" />
+      <node id="5253886477027549641" at="38,36,39,40" concept="0" />
       <node id="5253886477027549641" at="40,9,41,30" concept="4" />
       <node id="5253886477027549641" at="35,42,40,9" concept="2" />
       <scope id="5253886477027549641" at="36,37,39,40">
@@ -252,8 +252,8 @@
       <node id="5253886477027549641" at="99,34,100,114" concept="0" />
       <node id="5253886477027549641" at="100,114,101,93" concept="0" />
       <node id="5253886477027549641" at="101,93,102,17" concept="0" />
-      <node id="5253886477027549641" at="102,17,103,19" concept="0" />
-      <node id="5253886477027549641" at="103,19,104,22" concept="4" />
+      <node id="5253886477027549641" at="102,17,103,18" concept="0" />
+      <node id="5253886477027549641" at="103,18,104,22" concept="4" />
       <node id="5253886477027549641" at="97,0,106,0" concept="6" trace="createDescriptorForAddition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027549641" at="53,42,54,33" />
       <scope id="5253886477027549641" at="97,66,104,22">
@@ -266,8 +266,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027549642" at="26,0,27,0" concept="1" trace="props_Subtraction" />
       <node id="5253886477027549642" at="131,40,132,76" concept="3" />
-      <node id="5253886477027549642" at="132,76,133,37" concept="0" />
-      <node id="5253886477027549642" at="133,37,134,43" concept="0" />
+      <node id="5253886477027549642" at="132,76,133,36" concept="0" />
+      <node id="5253886477027549642" at="133,36,134,43" concept="0" />
       <node id="5253886477027549642" at="135,9,136,33" concept="4" />
       <node id="5253886477027549642" at="130,45,135,9" concept="2" />
       <scope id="5253886477027549642" at="131,40,134,43">
@@ -287,8 +287,8 @@
       <node id="5253886477027549642" at="229,34,230,114" concept="0" />
       <node id="5253886477027549642" at="230,114,231,93" concept="0" />
       <node id="5253886477027549642" at="231,93,232,17" concept="0" />
-      <node id="5253886477027549642" at="232,17,233,19" concept="0" />
-      <node id="5253886477027549642" at="233,19,234,22" concept="4" />
+      <node id="5253886477027549642" at="232,17,233,18" concept="0" />
+      <node id="5253886477027549642" at="233,18,234,22" concept="4" />
       <node id="5253886477027549642" at="227,0,236,0" concept="6" trace="createDescriptorForSubtraction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027549642" at="81,45,82,36" />
       <scope id="5253886477027549642" at="227,69,234,22">
@@ -301,8 +301,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027549643" at="22,0,23,0" concept="1" trace="props_Multiplication" />
       <node id="5253886477027549643" at="105,43,106,76" concept="3" />
-      <node id="5253886477027549643" at="106,76,107,37" concept="0" />
-      <node id="5253886477027549643" at="107,37,108,46" concept="0" />
+      <node id="5253886477027549643" at="106,76,107,36" concept="0" />
+      <node id="5253886477027549643" at="107,36,108,46" concept="0" />
       <node id="5253886477027549643" at="109,9,110,36" concept="4" />
       <node id="5253886477027549643" at="104,48,109,9" concept="2" />
       <scope id="5253886477027549643" at="105,43,108,46">
@@ -322,8 +322,8 @@
       <node id="5253886477027549643" at="194,34,195,114" concept="0" />
       <node id="5253886477027549643" at="195,114,196,93" concept="0" />
       <node id="5253886477027549643" at="196,93,197,17" concept="0" />
-      <node id="5253886477027549643" at="197,17,198,19" concept="0" />
-      <node id="5253886477027549643" at="198,19,199,22" concept="4" />
+      <node id="5253886477027549643" at="197,17,198,18" concept="0" />
+      <node id="5253886477027549643" at="198,18,199,22" concept="4" />
       <node id="5253886477027549643" at="192,0,201,0" concept="6" trace="createDescriptorForMultiplication#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027549643" at="73,48,74,39" />
       <scope id="5253886477027549643" at="192,72,199,22">
@@ -336,8 +336,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027549644" at="14,0,15,0" concept="1" trace="props_Division" />
       <node id="5253886477027549644" at="50,37,51,76" concept="3" />
-      <node id="5253886477027549644" at="51,76,52,37" concept="0" />
-      <node id="5253886477027549644" at="52,37,53,40" concept="0" />
+      <node id="5253886477027549644" at="51,76,52,36" concept="0" />
+      <node id="5253886477027549644" at="52,36,53,40" concept="0" />
       <node id="5253886477027549644" at="54,9,55,30" concept="4" />
       <node id="5253886477027549644" at="49,42,54,9" concept="2" />
       <scope id="5253886477027549644" at="50,37,53,40">
@@ -357,8 +357,8 @@
       <node id="5253886477027549644" at="119,34,120,114" concept="0" />
       <node id="5253886477027549644" at="120,114,121,93" concept="0" />
       <node id="5253886477027549644" at="121,93,122,17" concept="0" />
-      <node id="5253886477027549644" at="122,17,123,19" concept="0" />
-      <node id="5253886477027549644" at="123,19,124,22" concept="4" />
+      <node id="5253886477027549644" at="122,17,123,18" concept="0" />
+      <node id="5253886477027549644" at="123,18,124,22" concept="4" />
       <node id="5253886477027549644" at="117,0,126,0" concept="6" trace="createDescriptorForDivision#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027549644" at="57,42,58,33" />
       <scope id="5253886477027549644" at="117,66,124,22">
@@ -371,8 +371,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027549645" at="13,0,14,0" concept="1" trace="props_Definition" />
       <node id="5253886477027549645" at="43,39,44,76" concept="3" />
-      <node id="5253886477027549645" at="44,76,45,42" concept="0" />
-      <node id="5253886477027549645" at="45,42,46,42" concept="0" />
+      <node id="5253886477027549645" at="44,76,45,41" concept="0" />
+      <node id="5253886477027549645" at="45,41,46,42" concept="0" />
       <node id="5253886477027549645" at="47,9,48,32" concept="4" />
       <node id="5253886477027549645" at="42,44,47,9" concept="2" />
       <scope id="5253886477027549645" at="43,39,46,42">
@@ -394,8 +394,8 @@
       <node id="5253886477027549645" at="110,93,111,17" concept="0" />
       <node id="5253886477027678119" at="111,17,112,202" concept="0" />
       <node id="5253886477027678128" at="112,202,113,204" concept="0" />
-      <node id="5253886477027549645" at="113,204,114,24" concept="0" />
-      <node id="5253886477027549645" at="114,24,115,22" concept="4" />
+      <node id="5253886477027549645" at="113,204,114,23" concept="0" />
+      <node id="5253886477027549645" at="114,23,115,22" concept="4" />
       <node id="5253886477027549645" at="106,0,117,0" concept="6" trace="createDescriptorForDefinition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027549645" at="55,44,56,35" />
       <scope id="5253886477027549645" at="106,68,115,22">
@@ -478,8 +478,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5253886477027678166" at="19,0,20,0" concept="1" trace="props_LambdaAbstraction" />
       <node id="5253886477027678166" at="85,46,86,76" concept="3" />
-      <node id="5253886477027678166" at="86,76,87,42" concept="0" />
-      <node id="5253886477027678166" at="87,42,88,49" concept="0" />
+      <node id="5253886477027678166" at="86,76,87,41" concept="0" />
+      <node id="5253886477027678166" at="87,41,88,49" concept="0" />
       <node id="5253886477027678166" at="89,9,90,39" concept="4" />
       <node id="5253886477027678166" at="84,51,89,9" concept="2" />
       <scope id="5253886477027678166" at="85,46,88,49">
@@ -501,8 +501,8 @@
       <node id="5253886477027678166" at="167,93,168,17" concept="0" />
       <node id="5253886477027678204" at="168,17,169,202" concept="0" />
       <node id="5253886477027678206" at="169,202,170,198" concept="0" />
-      <node id="5253886477027678166" at="170,198,171,24" concept="0" />
-      <node id="5253886477027678166" at="171,24,172,22" concept="4" />
+      <node id="5253886477027678166" at="170,198,171,23" concept="0" />
+      <node id="5253886477027678166" at="171,23,172,22" concept="4" />
       <node id="5253886477027678166" at="163,0,174,0" concept="6" trace="createDescriptorForLambdaAbstraction#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5253886477027678166" at="67,51,68,42" />
       <scope id="5253886477027678166" at="163,75,172,22">

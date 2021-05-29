@@ -203,8 +203,8 @@
     <property role="3GE5qa" value="Expressions.LambdaAbstraction" />
     <ref role="1XX52x" to="izh1:4zDzuCxtDvm" resolve="LambdaAbstraction" />
     <node concept="3EZMnI" id="4zDzuCxupou" role="2wV5jI">
-      <node concept="PMmxH" id="4zDzuCxupo_" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="3F0ifn" id="4zDzuCxv3Zu" role="3EZMnx">
+        <property role="3F0ifm" value="( λ" />
       </node>
       <node concept="3F0ifn" id="4zDzuCxupqy" role="3EZMnx">
         <property role="3F0ifm" value="(" />
