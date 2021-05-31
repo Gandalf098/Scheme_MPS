@@ -33,6 +33,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -216,6 +217,9 @@
         <node concept="lj46D" id="4zDzuCxuhDZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="11LMrY" id="4zDzuCxvvhg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="4zDzuCxuhDP" role="3EZMnx">
         <ref role="1NtTu8" to="izh1:3SSndU9uIbt" resolve="function" />
@@ -241,7 +245,7 @@
     <ref role="1XX52x" to="izh1:4zDzuCxtDvm" resolve="LambdaAbstraction" />
     <node concept="3EZMnI" id="4zDzuCxupou" role="2wV5jI">
       <node concept="3F0ifn" id="4zDzuCxv3Zu" role="3EZMnx">
-        <property role="3F0ifm" value="( λ" />
+        <property role="3F0ifm" value="(λ" />
       </node>
       <node concept="3F0ifn" id="4zDzuCxupqy" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -279,6 +283,13 @@
     <ref role="1XX52x" to="izh1:4zDzuCxuEW_" resolve="Empty" />
     <node concept="3F0ifn" id="4zDzuCxveQu" role="2wV5jI">
       <property role="3F0ifm" value="" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4zDzuCxvV$w">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="izh1:4zDzuCxvS0O" resolve="QuotedLiteral" />
+    <node concept="3F0A7n" id="4zDzuCxvV$y" role="2wV5jI">
+      <ref role="1NtTu8" to="izh1:4zDzuCxvS0P" resolve="value" />
     </node>
   </node>
 </model>

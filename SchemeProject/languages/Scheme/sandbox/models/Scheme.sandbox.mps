@@ -15,6 +15,9 @@
       <concept id="4483435539906144657" name="Scheme.structure.Program" flags="ng" index="2RjZlf">
         <child id="4483435539906355897" name="lambdaExps" index="2RgFTB" />
       </concept>
+      <concept id="5253886477028261940" name="Scheme.structure.Literal" flags="ng" index="1D_wRu">
+        <property id="5253886477028261941" name="value" index="1D_wRv" />
+      </concept>
       <concept id="5253886477027549641" name="Scheme.structure.Addition" flags="ng" index="1DBiKz" />
       <concept id="5253886477027549645" name="Scheme.structure.Definition" flags="ng" index="1DBiKB">
         <child id="5253886477027678119" name="variable" index="1DBLDd" />
@@ -51,13 +54,17 @@
       <node concept="1DBLC$" id="4zDzuCxux2o" role="1DBLDd">
         <property role="TrG5h" value="a" />
       </node>
-      <node concept="2Rg3dg" id="4zDzuCxux2q" role="1DBLDq" />
+      <node concept="1D_wRu" id="4zDzuCxvZpF" role="1DBLDq">
+        <property role="1D_wRv" value="5" />
+      </node>
     </node>
     <node concept="1DBiKB" id="4zDzuCxux4$" role="2RgFTB">
       <node concept="1DBLC$" id="4zDzuCxux4A" role="1DBLDd">
         <property role="TrG5h" value="b" />
       </node>
-      <node concept="2Rg3dg" id="4zDzuCxux4C" role="1DBLDq" />
+      <node concept="1D_wRu" id="4zDzuCxw3fm" role="1DBLDq">
+        <property role="1D_wRv" value="3" />
+      </node>
     </node>
     <node concept="1HPegH" id="4zDzuCxtLfE" role="2RgFTB">
       <node concept="2RgFS2" id="4zDzuCxtLfZ" role="1HPegE">
@@ -81,13 +88,21 @@
         <property role="TrG5h" value="x" />
       </node>
       <node concept="1DBiKz" id="4zDzuCxtSiU" role="1DBLDq">
-        <node concept="2Rg3dg" id="4zDzuCxtSiX" role="1DBiKH" />
-        <node concept="2Rg3dg" id="4zDzuCxtSiZ" role="1DBiKH" />
+        <node concept="1D_wRu" id="4zDzuCxw3eN" role="1DBiKH">
+          <property role="1D_wRv" value="1" />
+        </node>
+        <node concept="1D_wRu" id="4zDzuCxw3eR" role="1DBiKH">
+          <property role="1D_wRv" value="2" />
+        </node>
       </node>
     </node>
     <node concept="2RgFS2" id="4zDzuCxueZx" role="2RgFTB">
-      <node concept="2Rg3dg" id="4zDzuCxueZQ" role="2RgFS1" />
-      <node concept="2Rg3dg" id="4zDzuCxukeD" role="2RgFS1" />
+      <node concept="1DBLCV" id="4zDzuCxw3f4" role="2RgFS1">
+        <ref role="1DBLCS" node="4zDzuCxux2o" resolve="a" />
+      </node>
+      <node concept="1DBLCV" id="4zDzuCxw3fd" role="2RgFS1">
+        <ref role="1DBLCS" node="4zDzuCxux4A" resolve="b" />
+      </node>
       <node concept="2RgFS2" id="4zDzuCxukeK" role="2RgFS1">
         <node concept="2RgFS2" id="4zDzuCxumNE" role="2RgFS1">
           <node concept="2RgFS2" id="4zDzuCxumNM" role="2RgFS3">
@@ -123,8 +138,13 @@
           <node concept="1DBLCX" id="4zDzuCxv0qB" role="1DBiKH">
             <ref role="1DBLCS" node="4zDzuCxv0ql" resolve="x" />
           </node>
-          <node concept="2Rg3dg" id="4zDzuCxv0qD" role="1DBiKH" />
+          <node concept="1D_wRu" id="4zDzuCxvZp_" role="1DBiKH">
+            <property role="1D_wRv" value="1" />
+          </node>
         </node>
+      </node>
+      <node concept="1D_wRu" id="4zDzuCxvZpD" role="2RgFS1">
+        <property role="1D_wRv" value="15" />
       </node>
     </node>
   </node>

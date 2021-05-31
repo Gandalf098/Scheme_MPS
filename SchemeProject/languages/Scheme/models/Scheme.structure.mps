@@ -15,6 +15,7 @@
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -23,6 +24,10 @@
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -249,6 +254,18 @@
     <property role="EcuMT" value="5253886477027946277" />
     <property role="TrG5h" value="Empty" />
     <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+  </node>
+  <node concept="1TIwiD" id="4zDzuCxvS0O">
+    <property role="EcuMT" value="5253886477028261940" />
+    <property role="TrG5h" value="QuotedLiteral" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="34LRSv" value="`" />
+    <ref role="1TJDcQ" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+    <node concept="1TJgyi" id="4zDzuCxvS0P" role="1TKVEl">
+      <property role="IQ2nx" value="5253886477028261941" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
