@@ -296,31 +296,64 @@
   </node>
   <node concept="1TIwiD" id="4TGiIaKRayJ">
     <property role="EcuMT" value="5650973969933445295" />
-    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Math" />
     <property role="TrG5h" value="LessThan" />
     <property role="34LRSv" value="(&lt;" />
     <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
   </node>
   <node concept="1TIwiD" id="4TGiIaKRayK">
     <property role="EcuMT" value="5650973969933445296" />
-    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Math" />
     <property role="TrG5h" value="BiggerThan" />
     <property role="34LRSv" value="(&gt;" />
     <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
   </node>
   <node concept="1TIwiD" id="4TGiIaKRayL">
     <property role="EcuMT" value="5650973969933445297" />
-    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Math" />
     <property role="TrG5h" value="BiggerThanOrEqual" />
     <property role="34LRSv" value="(&gt;=" />
     <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
   </node>
   <node concept="1TIwiD" id="4TGiIaKRayM">
     <property role="EcuMT" value="5650973969933445298" />
-    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Math" />
     <property role="TrG5h" value="LessThanOrEqual" />
     <property role="34LRSv" value="(&lt;=" />
     <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
+  </node>
+  <node concept="1TIwiD" id="4TGiIaKRiO$">
+    <property role="EcuMT" value="5650973969933479204" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Logic" />
+    <property role="TrG5h" value="And" />
+    <property role="34LRSv" value="(and" />
+    <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
+  </node>
+  <node concept="1TIwiD" id="4TGiIaKRiO_">
+    <property role="EcuMT" value="5650973969933479205" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Logic" />
+    <property role="TrG5h" value="Or" />
+    <property role="34LRSv" value="(or" />
+    <ref role="1TJDcQ" node="4TGiIaKRayg" resolve="BinaryStdProcedure" />
+  </node>
+  <node concept="1TIwiD" id="4TGiIaKRiOA">
+    <property role="EcuMT" value="5650973969933479206" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures.Logical.Logic" />
+    <property role="TrG5h" value="Not" />
+    <ref role="1TJDcQ" node="4TGiIaKRiOB" resolve="UnaryStdProcedure" />
+  </node>
+  <node concept="1TIwiD" id="4TGiIaKRiOB">
+    <property role="EcuMT" value="5650973969933479207" />
+    <property role="3GE5qa" value="Expressions.StandardProcedures" />
+    <property role="TrG5h" value="UnaryStdProcedure" />
+    <ref role="1TJDcQ" node="4zDzuCxt72e" resolve="StandardProcedure" />
+    <node concept="1TJgyj" id="4TGiIaKRiOX" role="1TKVEi">
+      <property role="IQ2ns" value="5650973969933479229" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3SSndU9u6Ye" resolve="LambdaExpression" />
+    </node>
   </node>
 </model>
 
