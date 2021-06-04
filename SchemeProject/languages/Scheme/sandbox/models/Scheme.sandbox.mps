@@ -47,6 +47,7 @@
         <child id="5650973969933445271" name="right" index="3YGe9P" />
         <child id="5650973969933445269" name="left" index="3YGe9R" />
       </concept>
+      <concept id="5650973969933479204" name="Scheme.structure.And" flags="ng" index="3YGmv6" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -74,7 +75,14 @@
     </node>
     <node concept="1HPegH" id="4zDzuCxtLfE" role="2RgFTB">
       <node concept="1HPegH" id="4zDzuCxtLga" role="1HPegC">
-        <node concept="2Rg3dg" id="4zDzuCxtLgc" role="1HPegE" />
+        <node concept="3YGmv6" id="4TGiIaKRndZ" role="1HPegE">
+          <node concept="1DBLCV" id="4TGiIaKRne8" role="3YGe9R">
+            <ref role="1DBLCS" node="4zDzuCxux2o" resolve="a" />
+          </node>
+          <node concept="1DBLCV" id="4TGiIaKRneb" role="3YGe9P">
+            <ref role="1DBLCS" node="4zDzuCxux4A" resolve="b" />
+          </node>
+        </node>
         <node concept="2Rg3dg" id="4zDzuCxtLge" role="1HPegC" />
         <node concept="2Rg3dg" id="4zDzuCxtLgg" role="1HPegR" />
       </node>
