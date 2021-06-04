@@ -43,6 +43,9 @@
         <child id="1178581110218542449" name="alternate" index="1HPegR" />
       </concept>
       <concept id="5650973969933445295" name="Scheme.structure.LessThan" flags="ng" index="3YGe9d" />
+      <concept id="5650973969933445292" name="Scheme.structure.MultiStdProcedure" flags="ng" index="3YGe9e">
+        <child id="5650973969933445293" name="parameters" index="3YGe9f" />
+      </concept>
       <concept id="5650973969933445264" name="Scheme.structure.BinaryStdProcedure" flags="ng" index="3YGe9M">
         <child id="5650973969933445271" name="right" index="3YGe9P" />
         <child id="5650973969933445269" name="left" index="3YGe9R" />
@@ -57,6 +60,27 @@
   </registry>
   <node concept="2RjZlf" id="3SSndU9uIr7">
     <property role="TrG5h" value="First" />
+    <node concept="1DBiKB" id="4TGiIaKRnhs" role="2RgFTB">
+      <node concept="1DBLC$" id="4TGiIaKRnhu" role="1DBLDd">
+        <property role="TrG5h" value="myfunc" />
+      </node>
+      <node concept="1DBLCW" id="4TGiIaKRnij" role="1DBLDq">
+        <node concept="1DBLCp" id="4TGiIaKRnil" role="1DBLCm">
+          <property role="TrG5h" value="z" />
+        </node>
+        <node concept="1DBLCp" id="4TGiIaKRnis" role="1DBLCm">
+          <property role="TrG5h" value="y" />
+        </node>
+        <node concept="1DBiKz" id="4TGiIaKRniH" role="1DBLCk">
+          <node concept="1DBLCX" id="4TGiIaKRnj2" role="3YGe9f">
+            <ref role="1DBLCS" node="4TGiIaKRnil" resolve="z" />
+          </node>
+          <node concept="1DBLCX" id="4TGiIaKRnj7" role="3YGe9f">
+            <ref role="1DBLCS" node="4TGiIaKRnis" resolve="y" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1DBiKB" id="4zDzuCxux2m" role="2RgFTB">
       <node concept="1DBLC$" id="4zDzuCxux2o" role="1DBLDd">
         <property role="TrG5h" value="a" />
@@ -124,7 +148,9 @@
         </node>
         <node concept="2Rg3dg" id="4zDzuCxukeM" role="2RgFS3" />
       </node>
-      <node concept="2Rg3dg" id="4zDzuCxueZz" role="2RgFS3" />
+      <node concept="1DBLCV" id="4TGiIaKRnjb" role="2RgFS3">
+        <ref role="1DBLCS" node="4TGiIaKRnhu" resolve="myfunc" />
+      </node>
     </node>
     <node concept="1DBLCW" id="4zDzuCxuppy" role="2RgFTB">
       <node concept="1DBLCp" id="4zDzuCxupq3" role="1DBLCm">
